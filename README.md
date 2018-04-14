@@ -8,12 +8,12 @@ Instalacja odbywa się poprzez composer i dodanie do pliku composer.json poniżs
 ```php
 	{
         "require": {
-            "serwersms/serwersmsbundle" : "dev-master"
+            "pelex/serwersmsbundle" : "^1.0"
         }
         ...
         "repositories" : [{
             "type" : "git",
-                "url" : "https://github.com/SerwerSMSpl/serwersms-symfony-bundle.git"
+                "url" : "https://github.com/pelex/serwersms-symfony-bundle.git"
          }],
     }
 ```
