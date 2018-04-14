@@ -1,8 +1,9 @@
 {
-    "name" : "serwersms/serwersmsbundle",
+    "name": "pelex/serwersmsbundle",
+    "type": "symfony-bundle",
     "description" : "This is a Symfony2 Bundle for communication with the API v2 SerwerSMS.pl",
-    "type" : "symfony-bundle",
-	"version": "1.0.1",
+	"version": "1.0.2",
+    "license": "MIT",
     "authors": [
         {
             "name": "SerwerSMS.pl",
@@ -13,21 +14,25 @@
         "serwersms","api sms","sms"
     ],
 	"homepage": "https://serwersms.pl/",
-    "license" : [
-        "MIT"
-    ],
     "require" : {
 		"php": ">=5.3.9",
-		"symfony/symfony": ">=2.7"
+        "symfony/dependency-injection": "~2.7|~3.3|~4.0",
+        "symfony/http-kernel": "~2.7|~3.3|~4.0",
+        "symfony/config": "~2.8|~3.3|~4.0"
+    },
+    "require-dev": {
+        "symfony/console": "~2.7|~3.3|~4.0",
+        "symfony/framework-bundle": "~2.7|~3.3|~4.0",
+        "symfony/phpunit-bridge": "~3.3|~4.0",
+        "symfony/yaml": "~2.7|~3.3|~4.0"
     },
     "autoload" : {
         "psr-0" : {
             "SerwerSMS\\SerwerSMSBundle" : ""
         }
     },
-    "target-dir" : "SerwerSMS/SerwerSMSBundle",
-    "repositories" : [{
-    }],
+    "target-dir" : "pelex/SerwerSMSBundle",
+    "repositories" : [],
     "extra" : {
 		"branch-alias": {
             "dev-master": "1.0.x-dev"
