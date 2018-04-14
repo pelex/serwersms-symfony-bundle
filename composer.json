@@ -31,7 +31,7 @@
             "SerwerSMS\\SerwerSMSBundle" : ""
         }
     },
-    "target-dir" : "pelex/SerwerSMSBundle",
+    "target-dir" : "SerwerSMSBundle",
     "repositories" : [],
     "extra" : {
 		"branch-alias": {
