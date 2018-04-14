@@ -2,7 +2,7 @@
     "name": "pelex/serwersmsbundle",
     "type": "symfony-bundle",
     "description" : "This is a Symfony2 Bundle for communication with the API v2 SerwerSMS.pl",
-	"version": "1.0.2",
+	"version": "1.0.3",
     "license": "MIT",
     "authors": [
         {
