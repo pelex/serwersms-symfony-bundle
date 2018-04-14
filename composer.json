@@ -31,7 +31,6 @@
             "SerwerSMS\\SerwerSMSBundle" : ""
         }
     },
-    "target-dir" : "SerwerSMSBundle",
     "repositories" : [],
     "extra" : {
 		"branch-alias": {
